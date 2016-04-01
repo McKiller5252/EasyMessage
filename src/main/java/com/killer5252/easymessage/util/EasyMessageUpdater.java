@@ -21,7 +21,7 @@ public class EasyMessageUpdater extends Thread {
 	public void run() {
 		ArrayList<String> data = new ArrayList<String>();
 		try {
-			URL remoteFile = new URL("");
+			URL remoteFile = new URL("https://raw.githubusercontent.com/McKiller5252/EasyMessage/master/version.txt");
 			BufferedReader reader = new BufferedReader(new InputStreamReader(remoteFile.openStream()));
 			data.add(reader.readLine());
 		} catch (Exception e) {
