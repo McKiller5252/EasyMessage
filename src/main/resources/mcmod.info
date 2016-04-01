@@ -3,7 +3,7 @@
   "modid": "easymessage",
   "name": "EasyMessage",
   "description": "A easier way to message someone without typing their name.",
-  "version": "1.0",
+  "version": "1.0.0",
   "mcversion": "1.8.9",
   "url": "",
   "updateUrl": "",
